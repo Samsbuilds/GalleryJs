@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie de Photos Interactive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+  <h1>Galerie de Photos Interactive</h1>
+  <div id="image">Survolez une image pour la voir ici</div>
+  <div class="gallery">
+    <figure>
+      <img src="image1.jpg" alt="Image 1 Description" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </figure>
+    <figure>
+      <img src="image2.jpg" alt="Image 2 Description" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </figure>
+    <!-- Ajoute les 4 autres images ici avec la même structure -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

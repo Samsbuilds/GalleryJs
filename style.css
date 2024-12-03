@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#image {
+  height: 200px;
+  border: 2px solid black;
+  background-color: #f0f0f0;
+  line-height: 200px;
+}
+
+.gallery img {
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+}
